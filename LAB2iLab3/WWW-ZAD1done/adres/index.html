@@ -1,0 +1,40 @@
+<html>
+<title>Kontakt</title>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="Content-Language" content="pl" />
+	<meta name="Author" content="Jan Kowalski" />
+</head>
+<body>
+
+<table
+	border ="4";
+	align="center";
+	>
+	  <tr>
+		<td> <a href="home">Strona Główna</a> </td>
+	  <td> <a href="strona1/index.html">Zółw Wodny</a> </td>
+	  <td> <a href="strona2/index.html">Historia</a> </td>
+		<td> <a href="strona3/index.html">Przyszłość</a> </td>
+		<td> <a href="adres/index.html">Kontakt</a> </td>
+</tr>
+</table>
+
+<h1>Kontakt</h1>
+<h2>Formularz kontaktowy</h2>
+<div id="send_form_status"></div>
+<form method="post" action="/send_form.php" id="contact_form">
+     <div><label for="name">Imię i nazwisko</label></div>
+     <div><input type="text" name="name" id="name" class="formField" /></div>
+     <div><label for="phone">Numer telefonu</label></div>
+     <div><input type="text" name="phone" id="phone" class="formField" /></div>
+     <div><label for="email">Adres email</label></div>
+     <div><input type="text" name="email" id="email" class="formField" /></div>
+     <div><label for="message">Treść wiadomości</label></div>
+     <div><textarea name="message" id="message" class="formField"></textarea></div>
+     <div><button id="sendBtn">Wyślij</button></div>
+</form>
+
+</body>
+</html>

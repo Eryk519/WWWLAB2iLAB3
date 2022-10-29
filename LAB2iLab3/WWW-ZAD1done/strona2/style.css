@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+p {
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+table {
+	font-family: verdana;
+	text-align: center;
+	background-color: white;
+	text-shadow: 0 0 3px purple, 0 0 5px purple;
+}
